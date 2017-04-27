@@ -8,7 +8,7 @@ var veces = 10;
 
   /* reversa*/
 
-var veces = 5;
+var veces = 10;
 for (j=veces; j>1; j--){
   var stars = '*';
   for (i=1; i<j; i++){
