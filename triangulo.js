@@ -14,5 +14,5 @@ for (j=veces; j>1; j--){
   for (i=1; i<j; i++){
     stars += '*';
   }
-  console.log(str1)
+  console.log(stars)
 }
