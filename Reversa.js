@@ -4,3 +4,4 @@ mynumbers.sort(function(b, a) {
   return b - a;
 });
 console.log(mynumbers);
+
