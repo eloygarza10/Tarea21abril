@@ -1,2 +1,2 @@
-# Tarea21abril
+# Javascript
 Triangulo, Diagonal, Borde
