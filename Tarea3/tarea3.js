@@ -170,3 +170,34 @@ rect(rect53)
 
 var rect54 = { x: 450, y: 700, width: 205, height: 40, color: '#612210'}
 rect(rect54)
+
+var rect55 = { x: 0, y: 740, width: 205, height: 400, color: '#28a423'}
+rect(rect55)
+
+
+for (i=0; i<(canvas.width/rect55.width);i++){
+    rect(rect55)
+    rect55.x = rect55.x + rect55.width
+}
+
+var circleone = { x: 1200, y: 350, size: 300, color: '#fff'}
+circle(circleone)
+
+var triangleone = { x: 1400, y: 450, size: 300, color: '#fff'}
+triangle(triangleone)
+
+for (i=0; i<(canvas.width/rect55.width);i++){
+    rect(rect55)
+    rect55.x = rect55.x + rect55.width
+}
+
+var circletwo = { x: 1000, y: 300, size: 40, color: '#000'}
+circle(circletwo)
+
+for (i=0; i<2; i++){
+  circle(circletwo)
+  circletwo.x += 200
+}
+
+var circlethree = { x: 1100, y: 450, size: 100, color: '#ed0b0b'}
+circle(circlethree)
